@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/Home/Home",
+    "pages/Communicate/Communicate",
+    "pages/Mine/Mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/Home/Home",
+        "text": "首页",
+        "iconPath": ""
+      },
+      {
+        "pagePath": "pages/Communicate/Communicate",
+        "text": "交流",
+        "iconPath": ""
+      },
+      {
+        "pagePath": "pages/Mine/Mine",
+        "text": "我",
+        "iconPath": ""
+      }
+    ]
+  },
+  "debug": true
+}

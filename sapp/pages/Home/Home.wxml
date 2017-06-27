@@ -1,0 +1,30 @@
+<!--Home.wxml-->
+<view class="container">
+  <view class="topView">
+    <!--最上面的图片-->
+    <view class="imageView">
+      <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" class="topImage"></image>
+    </view>
+    
+    <!--下面的view-->
+    <view class="textView">
+      <view class="titleView">
+        <text class="title">2017青岛世纪家博会</text>
+      </view>
+
+      <!--时间地点view-->
+      <view class="timeView">
+        <image class="timeImage" src="###"></image>
+        <text class="timeText">2017.6.23日~6.25日 </text>
+      </view>
+      <view class="timeView">
+        <image class="timeImage" src="###"></image>
+        <text class="timeText">青岛国际会展中心</text>
+      </view> 
+      <view class="desView">
+        <text class="desText">青岛国际会展中心青岛国际会展中心青岛国际会展中心青岛国际会展中心青岛国际会展中心青岛国际会展中心青岛国际会展中心青岛国际会展中心青岛国际会展中心青岛国际会展中心青岛国际会展中心青岛国际会展中心青岛国际会展中心青岛国际会展中心青岛国际会展中心青岛国际会展中心青岛国际会展中心</text>
+    </view>
+      </view>
+      
+  </view>
+</view>
