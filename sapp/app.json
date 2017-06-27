@@ -1,8 +1,9 @@
 {
   "pages": [
+    "pages/Mine/Mine",
     "pages/Home/Home",
-    "pages/Communicate/Communicate",
-    "pages/Mine/Mine"
+    "pages/Communicate/Communicate"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -16,17 +17,20 @@
       {
         "pagePath": "pages/Home/Home",
         "text": "首页",
-        "iconPath": ""
+        "iconPath": "Images/shouye.png",
+        "selectedIconPath": "Images/shouye.png"
       },
       {
         "pagePath": "pages/Communicate/Communicate",
         "text": "交流",
-        "iconPath": ""
+        "iconPath": "Images/jiaoliu.png",
+        "selectedIconPath": "Images/jiaoliu.png"
       },
       {
         "pagePath": "pages/Mine/Mine",
         "text": "我",
-        "iconPath": ""
+        "iconPath": "Images/wo.png",
+        "selectedIconPath": "Images/wo.png"
       }
     ]
   },

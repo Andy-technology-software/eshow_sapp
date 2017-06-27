@@ -1,1 +1,6 @@
-{}
+{
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "black",
+  "navigationBarTitleText": "交流区",
+  "navigationBarTextStyle": "white"
+}
