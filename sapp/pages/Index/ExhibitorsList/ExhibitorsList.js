@@ -5,14 +5,53 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+      imgUrls: [
+          'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
+          'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
+          'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg',
+          'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
+          'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
+          'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg',
+          'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
+          'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
+          'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg',
+          'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
+          'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
+          'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
+      ],
+  },
+
+  /**
+   * 查看商家详情
+   */
+  checkExInfo: function () {
+      wx.navigateTo({
+          url: '../ExhibitorInfo/ExhibitorInfo',
+          success: function (res) {
+              // success
+          },
+          fail: function () {
+              // fail
+          },
+          complete: function () {
+              // complete
+          }
+      })
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+      var that = this
+      wx.getSystemInfo({
+          success: function (res) {
+              that.setData({
+                  MaxHeigth: res.windowHeight,
+                  MaxWidth:res.windowWidth
+              })
+          }
+      })
   },
 
   /**

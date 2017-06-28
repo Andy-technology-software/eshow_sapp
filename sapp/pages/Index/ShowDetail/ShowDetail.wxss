@@ -15,7 +15,7 @@
 }
 
 .lineView{
-    width: 80px;
+    width: 70px;
     height: 1px;
     background-color: white;
     margin-top: 5px;
@@ -63,13 +63,23 @@
 /****列表****/
 .listOutView{
     display: flex;
+    flex-direction: column;
+}
+
+.listView{
+    display: flex;
     flex-direction: row;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
 }
 
 .listLeft{
     /*background-color: red;*/
+    display: flex;
+    flex-direction: column;
 }
 
 .listLeftImage {
@@ -93,8 +103,18 @@
 
 }
 
-.listRightDes{
-    font-size: 12px;
+.desText{
     color: rgb(175, 174, 174);
-    line-height: 14px;
+    font-size:12px;
+    line-height:1.2;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2
+}
+
+.bottomLineView{
+    height: 1px;
+    background-color: rgb(57, 57, 62);
 }

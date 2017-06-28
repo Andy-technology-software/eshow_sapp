@@ -21,13 +21,17 @@
 
         <!--展商列表-->
         <view class="listOutView" wx:for="{{imgUrls}}" bindtap="checkExInfo">
-            <view class="listLeft">
-                <image class="listLeftImage" src="../../../Images/list.png"></image>
+            <view class="listView">
+                <view class="listLeft">
+                    <image class="listLeftImage" src="../../../Images/list.png"></image>
+                </view>
+                <view class="listRight">
+                    <text class="listRightTitle">金橡树床垫</text>
+                    <view class="desText">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+                </view>
             </view>
-            <view class="listRight">
-                <text class="listRightTitle">金橡树床垫</text>
-                <text class="listRightDes">金橡树 全都是泡沫金橡树 全都是泡沫金橡树 全都是泡沫金橡树 全都是泡沫金橡树 全都是泡沫</text>
-            </view>
+            <!--加线-->
+            <view class="bottomLineView"></view>
         </view>
     </view>
 </view>
