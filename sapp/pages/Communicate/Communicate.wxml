@@ -1,5 +1,8 @@
-<view class="container" style="height: {{MaxHeigth - 40}}px; width: {{MaxWidth - 40}}px; ">
+<view class="container" style="height: {{MaxHeigth - 90}}px; width: {{MaxWidth - 40}}px; ">
 
+    
+  <scroll-view scroll-y="true" style="height: 100%;" >
+  
     <view class="zhaohuanView">
         <text class="title">发布召唤</text>
        <view class="lineView"></view>
@@ -9,9 +12,6 @@
            <image class="selectImage" src="#"></image>
        </view>
     </view>
-  <scroll-view scroll-y="true" style="height: 100%;" >
-  
-    
         
   </scroll-view>
 
