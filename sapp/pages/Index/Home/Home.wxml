@@ -1,6 +1,6 @@
 <!--Home.wxml-->
 <view class="container">
-  <swiper class="swiperStyle" indicator-dots="{true}"
+  <swiper style="height: {{MaxHeigth}}px;" indicator-dots="{true}"
     autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
     <block wx:for="{{imgUrls}}">
       <swiper-item>
@@ -18,21 +18,21 @@
 
               <!--时间地点view-->
               <view class="timeView">
-                <image class="timeImage" src="../../Images/jiaoliu.png"></image>
+                <image class="timeImage" src="../../../Images/jiaoliu.png"></image>
                 <text class="timeText">2017.6.23日~6.25日 </text>
               </view>
               <view class="timeView">
-                <image class="timeImage" src="../../Images/jiaoliu.png"></image>
+                <image class="timeImage" src="../../../Images/jiaoliu.png"></image>
                 <text class="timeText">青岛国际会展中心</text>
               </view> 
               <view class="desView">
-                <text class="desText">青岛国际会展中心青岛国际会展中心青岛国际会展中心青岛国际会展中心青岛国际会展中心青岛国际会展中心青岛国际会展中心青岛国际会展中心青岛国际会展中心青岛国际会展中心青岛国际会展中心青岛国际会</text>
+                <text class="desText">青岛国际会展中心青岛国际会展中心岛国际会展中心青岛国际会展中心青岛国</text>
               </view>
             </view>
             
             <!--下面的点击箭头-->
-            <view class="clickView">
-              <image class="clickImage" src="../../Images/jiaoliu.png"></image>
+            <view class="clickView" bindtap="showDetail">
+              <image class="clickImage" src="../../../Images/jiaoliu.png"></image>
             </view>
         </view>
       </swiper-item>

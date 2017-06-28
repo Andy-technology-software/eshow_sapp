@@ -1,0 +1,33 @@
+<view class="container">
+    <!--上部分展会介绍-->
+    <view class="topView">
+       <text class="title">展会介绍</text>
+       <view class="lineView"></view>
+       <text class="des">青岛国际展览中心 国际展会青岛国际展览中心 国际展会青岛国际展览中心 国际展会青岛国际展览中心 国际展会青岛国际展览中心 国际展会青岛国际展览中心 国际展会青岛国际展览中心 国际展会青岛国际展览中心 国际展会</text>
+    </view>
+
+    <!--下部分展会展商-->
+    <view class="bottomView">
+        <view class="upView" bindtap="moreExhibitors">
+            <view class="leftView">
+                <text class="title">展商参观</text>
+                <view class="lineView"></view>
+            </view>
+
+            <view class="rightView">
+                <image class="youImage" src="../../../Images/jiaoliu.png"></image>
+            </view>
+        </view>
+
+        <!--展商列表-->
+        <view class="listOutView" wx:for="{{imgUrls}}">
+            <view class="listLeft">
+                <image class="listLeftImage" src="../../../Images/list.png"></image>
+            </view>
+            <view class="listRight">
+                <text class="listRightTitle">金橡树床垫</text>
+                <text class="listRightDes">金橡树 全都是泡沫金橡树 全都是泡沫金橡树 全都是泡沫金橡树 全都是泡沫金橡树 全都是泡沫</text>
+            </view>
+        </view>
+    </view>
+</view>

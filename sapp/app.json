@@ -1,38 +1,36 @@
 {
-  "pages": [
-    "pages/Mine/Mine",
-    "pages/Home/Home",
-    "pages/Communicate/Communicate"
-    
-  ],
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
-  },
-
-  "tabBar": {
-    "list": [
-      {
-        "pagePath": "pages/Home/Home",
-        "text": "首页",
-        "iconPath": "Images/shouye.png",
-        "selectedIconPath": "Images/shouye.png"
-      },
-      {
-        "pagePath": "pages/Communicate/Communicate",
-        "text": "交流",
-        "iconPath": "Images/jiaoliu.png",
-        "selectedIconPath": "Images/jiaoliu.png"
-      },
-      {
-        "pagePath": "pages/Mine/Mine",
-        "text": "我",
-        "iconPath": "Images/wo.png",
-        "selectedIconPath": "Images/wo.png"
-      }
-    ]
-  },
-  "debug": true
+    "pages": [
+        "pages/Index/Home/Home",
+        "pages/Index/ShowDetail/ShowDetail",
+        "pages/Index/ExhibitorsList/ExhibitorsList",
+        "pages/Communicate/Communicate",
+        "pages/Mine/Mine"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#000000"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/Index/Home/Home",
+                "text": "首页",
+                "iconPath": "Images/shouye.png",
+                "selectedIconPath": "Images/shouye.png"
+            },
+            {
+                "pagePath": "pages/Communicate/Communicate",
+                "text": "交流",
+                "iconPath": "Images/jiaoliu.png",
+                "selectedIconPath": "Images/jiaoliu.png"
+            },
+            {
+                "pagePath": "pages/Mine/Mine",
+                "text": "我",
+                "iconPath": "Images/wo.png",
+                "selectedIconPath": "Images/wo.png"
+            }
+        ]
+    },
+    "debug": true
 }
