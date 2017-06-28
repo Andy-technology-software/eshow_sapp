@@ -16,11 +16,29 @@ Page({
   },
 
   /**
-   * 参观展商
+   * 参观展商列表
    */
-  moreExhibitors: function (){
+  moreExhibitors: function(){
       wx.navigateTo({
           url: '../ExhibitorsList/ExhibitorsList',
+          success: function (res) {
+              // success
+          },
+          fail: function () {
+              // fail
+          },
+          complete: function () {
+              // complete
+          }
+      })
+  },
+
+  /**
+   * 查看商家详情
+   */
+  checkExInfo: function(){
+      wx.navigateTo({
+          url: '../ExhibitorInfo/ExhibitorInfo',
           success: function (res) {
               // success
           },

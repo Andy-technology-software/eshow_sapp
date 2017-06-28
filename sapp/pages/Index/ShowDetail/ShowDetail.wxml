@@ -20,7 +20,7 @@
         </view>
 
         <!--展商列表-->
-        <view class="listOutView" wx:for="{{imgUrls}}">
+        <view class="listOutView" wx:for="{{imgUrls}}" bindtap="checkExInfo">
             <view class="listLeft">
                 <image class="listLeftImage" src="../../../Images/list.png"></image>
             </view>

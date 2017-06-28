@@ -3,6 +3,7 @@
         "pages/Index/Home/Home",
         "pages/Index/ShowDetail/ShowDetail",
         "pages/Index/ExhibitorsList/ExhibitorsList",
+        "pages/Index/ExhibitorInfo/ExhibitorInfo",
         "pages/Communicate/Communicate",
         "pages/Mine/Mine"
     ],
