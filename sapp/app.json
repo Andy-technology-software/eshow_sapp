@@ -9,7 +9,9 @@
         "pages/Me/SystemMessage/SystemMessage",
         "pages/Me/MyProdiction/MyProdiction",
         "pages/HXChat/chat/chat",
-        "pages/HXChat/chatroom/chatroom"
+        "pages/HXChat/chatroom/chatroom",
+        "pages/Me/MyDynamics/MyDynamics",
+        "pages/Index/ProdictionDetail/ProdictionDetail"
     ],
     "window": {
         "backgroundTextStyle": "light",

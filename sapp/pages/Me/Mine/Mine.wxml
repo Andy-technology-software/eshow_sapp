@@ -44,7 +44,7 @@
       </view>
 
       <view class="outView">
-        <view class="mineMessage">
+        <view class="mineMessage" bindtap="myDynamics">
             <image class="mineMessageImage" src="../../../Images/jiaoliu.png"></image>
             <text class="mineMessageText">我的动态</text>
        </view>

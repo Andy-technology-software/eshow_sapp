@@ -1,4 +1,4 @@
-// Communicate.js
+// MyDynamics.js
 Page({
 
   /**
@@ -16,23 +16,8 @@ Page({
   },
 
   /**
-   * 聊天页面
+   * 生命周期函数--监听页面加载
    */
-  clickHeadImage: function(){
-      wx.navigateTo({
-          url: '../../Index/ExhibitorInfo/ExhibitorInfo',
-          success: function (res) {
-              // success
-          },
-          fail: function () {
-              // fail
-          },
-          complete: function () {
-              // complete
-          }
-      })
-  },
-
   onLoad: function (options) {
       var that = this
       wx.getSystemInfo({

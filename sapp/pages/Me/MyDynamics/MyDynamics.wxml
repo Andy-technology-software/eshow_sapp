@@ -1,0 +1,50 @@
+<view class="container" style="height: {{MaxHeigth - 40}}px; width: {{MaxWidth - 40}}px; ">
+
+    
+  <scroll-view scroll-y="true" style="height: 100%;" >
+        <!--交流区-->
+        <view class="outView">
+            <!--富文本部分-->
+            <view class="cell" wx:for="{{imgUrls}}">
+                <view class="section0">
+                    <view class="leftView" bindtap="clickHeadImage">
+                        <image src="../../../Images/list.png" style="width:40px; height:40px;"></image>
+                    </view>
+
+                    <view class="rightView">
+                            <text class="nametitle">诺贝尔瓷砖</text>
+                            <text class="sendContent">这是内容  这是内容  这是内容  这是内容  这是内容  这是内容  这是内容  这是内容  这是内容  </text>
+                            <view class="sendImagesView">
+                                <image class="sendImages" src="../../../Images/list.png"></image>
+                                <image class="sendImages" src="../../../Images/list.png"></image>
+                                <image class="sendImages" src="../../../Images/list.png"></image>
+                            </view>
+
+                            <view class="timeAndTalkView">
+                                <text class="timeType">20分钟前</text>
+                                <view class="deleView">
+                                    <text class="deleText">删除</text>
+                                    <image src="../../../Images/jiaoliu.png" style="width:12px; height:12px;"></image>
+                                </view>
+                                
+                            </view>
+
+
+                    </view>
+                </view>
+
+                <view class="section1">
+                    <view class="bottLine"></view>
+                </view>
+                  
+            </view>
+
+        </view>
+        
+  </scroll-view>
+
+  <view class="searchView">
+    <image class="searchImage" src="../../../Images/jiaoliu.png"></image>
+  </view>
+
+</view>

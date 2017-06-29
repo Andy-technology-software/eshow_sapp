@@ -1,65 +1,8 @@
 .container{
     background-color: rgb(62, 62, 68);
     margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
     border-radius: 12px;
-    display: flex;
-    flex-direction: column;
-}
-
-.zhaohuanView{
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-}
-
-.title{
-    color: white;
-    font-size: 16;
-}
-
-.lineView{
-    width: 80px;
-    height: 1px;
-    background-color: white;
-    margin-top: 5px;
-}
-
-.inputStyle{
-    font-size: 13px;
-    margin-top: 10px;
-    background-color: rgb(139,139,143);
-    height: 35px;
-    border-radius: 3px;
-}
-
-.areaStyle{
-    font-size: 13px;
-    margin-top: 10px;
-    background-color: rgb(139,139,143);
-    border-radius: 3px;
-    height: 50px;
-    margin-right: 50px;
-}
-
-.imageView{
-    margin-top: 20px;
-}
-
-.sendBtn{
-    margin-top: 20px;
-    background-color: rgb(53,53,59);
-    color: white;
-    width: 70%;
-    font-size: 14px;
-    border-radius: 12px;
-}
-
-.zhLine{
-    margin-top: 20px;
-    width: 100%;
-    height: 2px;
-    background-color: rgb(57,57,62);
 }
 
 
@@ -68,25 +11,6 @@
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
-}
-
-.topView{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-right: 10px;
-}
-
-.top0{
-    display: flex;
-    flex-direction: column;
-}
-
-.lineView1{
-    width: 60px;
-    height: 1px;
-    background-color: white;
-    margin-top: 5px;
 }
 
 .cell{
@@ -145,9 +69,33 @@
     color: rgb(175,174,174); 
 }
 
+.deleView{
+    display: flex;
+    flex-direction: row;
+}
+
+.deleText{
+    color: red;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
 .bottLine{
     margin-top: 20px;
     width: 100%;
     height: 2px;
     background-color: rgb(57,57,62);
+}
+
+
+/***发布按钮***/
+.searchView{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.searchImage{
+    width: 40px;
+    height: 40px;
 }

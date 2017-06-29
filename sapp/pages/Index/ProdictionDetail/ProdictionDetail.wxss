@@ -1,0 +1,88 @@
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+/*section0头部信息*/
+.section0{
+    background-color: rgb(62, 62, 68);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headView{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.headImage{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.nameView{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.name{
+    font-size: 16px;
+    color: white;
+    margin-right: 5px;
+}
+
+.sixin{
+    font-size: 12px;
+    color: rgb(232,215,19);
+    margin-left: 5px;
+    background-color: rgb(53,53,59);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.addressView{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.addImage{
+    width: 16px;
+    height: 16px;
+}
+
+.addText{
+    font-size: 14px;
+    margin-left: 5px;
+    color: rgb(175,174,174);
+}
+
+.bottomView{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pname{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.pdes{
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgb(153,153,153);
+}
+
+.pImage{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

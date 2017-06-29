@@ -1,1 +1,175 @@
-/* ExhibitorInfo.wxss */
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+/*section0头部信息*/
+.section0{
+    background-color: rgb(62, 62, 68);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headView{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.headImage{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.nameView{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.name{
+    font-size: 16px;
+    color: white;
+    margin-right: 5px;
+}
+
+.sixin{
+    font-size: 12px;
+    color: rgb(232,215,19);
+    margin-left: 5px;
+    background-color: rgb(53,53,59);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.addressView{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.addImage{
+    width: 16px;
+    height: 16px;
+}
+
+.addText{
+    font-size: 14px;
+    margin-left: 5px;
+    color: rgb(175,174,174);
+}
+
+/*section1商家动态*/
+.section1{
+    background-color: rgb(238,238,238);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.section1LeftView{
+    display: flex;
+    flex-direction: row;
+}
+
+.leftTitleView{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.leftTitle{
+    font-size: 16px;
+}
+
+.middleImagesView{
+    margin-left: 10px;
+}
+
+.middleImgae{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 55px;
+    height: 55px;
+
+}
+
+.section1RightView{
+    align-self: center;
+}
+
+.rightImageView{
+    margin-right: 10px;
+}
+
+.rightImgae{
+    width: 30px;
+    height: 30px;
+}
+
+/*section2 主营产品*/
+.section2View{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(238,238,238);
+}
+
+.s2LeftTitle{
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.s2RightText{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: rgb(153,153,153)
+}
+
+.lineView{
+    width: 100%;
+    background-color: lightgray;
+    height: 0.5px;
+}
+
+/*section4 产品展示*/
+.section4View{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238,238,238);
+}
+
+.s4TitleView{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.s4LeftTitle{
+    font-size: 16px;
+}
+
+.listview{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.des{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}

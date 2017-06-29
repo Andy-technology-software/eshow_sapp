@@ -1,0 +1,71 @@
+<view class="container">
+    <!--section0 头部信息-->
+    <view class="section0">
+        <!--头像-->
+        <view class="headView">
+             <image class="headImage" src="../../../Images/list.png"></image>
+        </view>
+
+        <!--名字-->
+        <view class="nameView">
+            <text class="name">金橡树床垫</text>
+            <text bindtap="sixinClick" class="sixin">私信</text>
+        </view>
+
+        <!--地址-->
+        <view class="addressView">
+            <image class="addImage" src="../../../Images/jiaoliu.png"></image>
+            <text class="addText">青岛市崂山区劲松七路</text>
+        </view>
+    </view>
+
+    <!--section1 商家动态-->
+    <view class="section1">
+        <view class="section1LeftView">
+            <view class="leftTitleView">
+                <text class="leftTitle">商家动态</text>
+            </view>
+
+            <view class="middleImagesView">
+                <image class="middleImgae" src="../../../Images/list.png"></image>
+                <image class="middleImgae" src="../../../Images/list.png"></image>
+            </view>
+        </view>
+
+        <view class="section1RightView">
+            <view class="rightImageView">
+                <image class="rightImgae" src="../../../Images/jiaoliu.png"></image>
+            </view>
+        </view>
+    </view>
+
+    <!--section2 主营产品-->
+    <view class="section2View">
+        <text class="s2LeftTitle">主营产品</text>
+            <text class="s2RightText">天然乳胶橡垫  天然乳胶橡垫  </text>
+    </view>
+
+    <!--线-->
+    <view class="lineView"></view>
+    
+    <!--section3 商家简介-->
+    <view class="section2View">
+        <text class="s2LeftTitle">商家简介</text>
+            <text class="s2RightText">天然乳胶橡垫  天然乳胶橡垫  天然乳胶橡垫  天然乳胶橡垫  天然乳胶橡垫天然乳胶橡垫  天然乳胶橡垫  天然乳胶橡垫  天然乳胶橡垫  天然乳胶橡垫天然乳胶橡垫  天然乳胶橡垫  天然乳胶橡垫  天然乳胶橡垫  天然乳胶橡垫</text>
+    </view>
+
+
+    <!--section4 产品展示-->
+    <view class="section4View">
+        <view class="s4TitleView">
+            <text class="s4LeftTitle">产品展示</text>
+        </view>
+        
+        <view class="listview" wx:for="{{imgUrls}}" bindtap="checkProdictDetail">
+                <image style="height: {(MaxWidth - 20)*0.6}px; width: {{MaxWidth - 20}}px;" src="../../../Images/list.png"></image>
+                <text class="des">金橡树乳胶按摩蝶形枕头</text>
+            </view>
+            
+    </view>
+
+</view>

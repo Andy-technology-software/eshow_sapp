@@ -1,26 +1,19 @@
-// Communicate.js
+// ProdictionDetail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-      imgUrls: [
-          'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
-          'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
-          'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg',
-          'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
-          'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
-          'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
-      ],
+  
   },
 
   /**
-   * 聊天页面
+   * 私信点击
    */
-  clickHeadImage: function(){
+  sixinClick: function () {
       wx.navigateTo({
-          url: '../../Index/ExhibitorInfo/ExhibitorInfo',
+          url: '../../HXChat/chatroom/chatroom',
           success: function (res) {
               // success
           },
@@ -33,6 +26,9 @@ Page({
       })
   },
 
+  /**
+   * 生命周期函数--监听页面加载
+   */
   onLoad: function (options) {
       var that = this
       wx.getSystemInfo({

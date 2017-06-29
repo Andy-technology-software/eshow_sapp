@@ -1,0 +1,31 @@
+<view class="container">
+    <!--section0 头部信息-->
+    <view class="section0">
+        <!--头像-->
+        <view class="headView">
+             <image class="headImage" src="../../../Images/list.png"></image>
+        </view>
+
+        <!--名字-->
+        <view class="nameView">
+            <text class="name">金橡树床垫</text>
+            <text bindtap="sixinClick" class="sixin">私信</text>
+        </view>
+
+        <!--地址-->
+        <view class="addressView">
+            <image class="addImage" src="../../../Images/jiaoliu.png"></image>
+            <text class="addText">青岛市崂山区劲松七路</text>
+        </view>
+    </view>
+
+    <view class="bottomView">
+
+        <text class="pname">金橡树床垫</text>
+
+        <text class="pdes">产品介绍：金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫</text>
+
+        <image class="pImage" style="height: {(MaxWidth - 20)*0.6}px; width: {{MaxWidth - 20}}px;" src="../../../Images/list.png"></image>
+    </view>
+
+</view>

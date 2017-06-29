@@ -45,6 +45,24 @@ Page({
   },
 
   /**
+   * 我的动态
+   */
+  myDynamics: function () {
+      wx.navigateTo({
+          url: '../MyDynamics/MyDynamics',
+          success: function (res) {
+              // success
+          },
+          fail: function () {
+              // fail
+          },
+          complete: function () {
+              // complete
+          }
+      })
+  },
+
+  /**
    * 跳转到聊天列表
    */
   goChat: function(){
