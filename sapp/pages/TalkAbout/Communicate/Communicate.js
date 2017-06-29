@@ -1,37 +1,26 @@
-// Home.js
-
-var strophe = require('../../../utils/strophe.js')
-var WebIM = require('../../../utils/WebIM.js')
-var WebIM = WebIM.default
-
-var app = getApp();
+// Communicate.js
 Page({
+
   /**
    * 页面的初始数据
    */
   data: {
-    imgUrls: [
-      'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
-    ],
-    indicatorDots: false,
-    autoplay: true,
-    interval: 4000,
-    duration: 1000,
-
-    //聊天
-    name: '17888888888',
-    psd: '17888888888',
-    grant_type: "password"
+      imgUrls: [
+          'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
+          'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
+          'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg',
+          'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
+          'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
+          'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
+      ],
   },
 
   /**
-   * 点击查看展会详情
+   * 聊天页面
    */
-  showDetail: function (event) {
+  clickHeadImage: function(){
       wx.navigateTo({
-          url: '../ShowDetail/ShowDetail',
+          url: '../../HXChat/chatroom/chatroom',
           success: function (res) {
               // success
           },
@@ -44,32 +33,16 @@ Page({
       })
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
   onLoad: function (options) {
       var that = this
       wx.getSystemInfo({
           success: function (res) {
               that.setData({
-                  MaxHeigth: res.windowHeight
+                  MaxHeigth: res.windowHeight,
+                  MaxWidth: res.windowWidth
               })
           }
       })
-
-      var options = {
-          apiUrl: WebIM.config.apiURL,
-          user: that.data.name,
-          pwd: that.data.psd,
-          grant_type: that.data.grant_type,
-          appKey: WebIM.config.appkey
-      }
-      wx.setStorage({
-          key: "myUsername",
-          data: that.data.name
-      })
-      //console.log('open')
-      WebIM.conn.open(options)
   },
 
   /**

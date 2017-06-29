@@ -1,0 +1,94 @@
+/* Mine.wxss */
+/*****************上部分*******************/
+.topView{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(62, 62, 68);
+    justify-content: space-between;
+    align-content: center;
+}
+
+.oneView{
+  display: flex;
+  flex-direction: row;
+}
+
+.headView {
+  /*background-color: green;*/
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.headImage {
+  width: 60px;
+  height: 60px;
+}
+
+.middleView {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5px;
+}
+
+.name{
+  font-size: 14px;
+  color: white;
+}
+
+.editView {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.editText{
+  font-size: 10px;
+  color: white;
+}
+.editImage {
+  margin-left: 5px;
+  width: 10px;
+  height: 10px;
+}
+
+.messageView {
+    margin-right: 10px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.messageImage {
+  width: 30px;
+  height: 30px;
+}
+
+/*****************下部分*******************/
+.mineMessage {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.mineMessageImage{
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.mineMessageText{
+  font-size: 14px;
+}
+
+.lineView {
+  width: 100%;
+  height: 1px;
+  background-color: lightgray;
+  bottom: 0px;
+}

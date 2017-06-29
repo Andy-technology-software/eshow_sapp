@@ -1,0 +1,29 @@
+<view class="container">
+
+<scroll-view scroll-y="true" style="height: 100%;">
+    <view class="outView" wx:for="{{imgUrls}}" bindtap="checkMessage">
+        <view class="section0">
+            <view class="leftView">
+                <image class="leftImage" src="../../../Images/jiaoliu.png"></image>
+            </view>
+
+            <view class="rightView">
+                <view class="top">
+                    <text class="title">通知消息</text>
+                    <text class="time">12:12</text>
+                </view>
+
+                <view class="content">
+                    <view class="desText">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。
+                    </view>
+                </view>
+            </view>
+        </view>
+    
+        <!--底线-->
+        <view class="lineView"></view>
+    </view>
+    
+</scroll-view>
+    
+</view>

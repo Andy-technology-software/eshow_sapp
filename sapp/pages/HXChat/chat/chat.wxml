@@ -1,0 +1,46 @@
+<!-- <view class="search" wx:if="{{ search_btn }}">
+	<view bindtap="openSearch">
+		<icon type="search" size="13"></icon>
+		<text>搜索</text>
+	</view>
+</view>
+<view class="search_input" wx:if="{{ search_chats }}">
+	<view>
+		<icon type="search" size="13"></icon>
+		<input placeholder="搜索" placeholder-style="color:#CFCFCF;line-height:20px;font-size:12px;" auto-focus></input>
+	</view>
+	<text bindtap="cancel">取消</text>
+</view>
+<view style="width:100%; height:40px;"></view> -->
+<view wx:for="{{ arr }}" wx:key="time" class="chat_list">
+	<view class="list_left" bindtap="into_chatRoom" data-username="{{ item.yourname }}">
+		<view class="list_pic">
+			<image src="../../images/number.png"></image>
+		</view>
+		<view class="list_text">
+			<text class="list_user">{{item.yourname}}</text>
+			<text class="list_word">{{item.msg.data[0].data}}</text>
+		</view>
+	</view>
+	<view class="list_right">
+		<text bindtap="into_chatRoom" data-username="{{ item.yourname }}">{{item.time}}</text>
+		<text bindtap="del_chat" data-username="{{ item.yourname }}" class="delChat">删除会话</text>
+	</view>
+</view>
+
+
+
+
+<view class="mask" bindtap="close_mask" wx:if="{{show_mask}}"></view>
+<!--
+<view class="chatRoom_tab">
+	<view class="contacts" bindtap="tab_contacts">
+		<image src="../../images/contacts.png" ></image>
+	</view>
+	<view class="chats">
+		<image src="../../images/chatsActive.png"></image>
+	</view>
+	<view class="settings" bindtap="tab_setting">
+		<image src="../../images/settings.png"></image>
+	</view>
+</view>-->

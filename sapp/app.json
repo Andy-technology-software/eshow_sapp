@@ -4,8 +4,12 @@
         "pages/Index/ShowDetail/ShowDetail",
         "pages/Index/ExhibitorsList/ExhibitorsList",
         "pages/Index/ExhibitorInfo/ExhibitorInfo",
-        "pages/Communicate/Communicate",
-        "pages/Mine/Mine"
+        "pages/TalkAbout/Communicate/Communicate",
+        "pages/Me/Mine/Mine",
+        "pages/Me/SystemMessage/SystemMessage",
+        "pages/Me/MyProdiction/MyProdiction",
+        "pages/HXChat/chat/chat",
+        "pages/HXChat/chatroom/chatroom"
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -20,13 +24,13 @@
                 "selectedIconPath": "Images/shouye.png"
             },
             {
-                "pagePath": "pages/Communicate/Communicate",
+                "pagePath": "pages/TalkAbout/Communicate/Communicate",
                 "text": "交流",
                 "iconPath": "Images/jiaoliu.png",
                 "selectedIconPath": "Images/jiaoliu.png"
             },
             {
-                "pagePath": "pages/Mine/Mine",
+                "pagePath": "pages/Me/Mine/Mine",
                 "text": "我",
                 "iconPath": "Images/wo.png",
                 "selectedIconPath": "Images/wo.png"
