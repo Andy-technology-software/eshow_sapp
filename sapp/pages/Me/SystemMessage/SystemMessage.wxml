@@ -4,7 +4,7 @@
     <view class="outView" wx:for="{{imgUrls}}" bindtap="checkMessage">
         <view class="section0">
             <view class="leftView">
-                <image class="leftImage" src="../../../Images/jiaoliu.png"></image>
+                <image class="leftImage" src="../../../images/jiaoliu.png"></image>
             </view>
 
             <view class="rightView">

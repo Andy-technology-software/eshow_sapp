@@ -5,7 +5,7 @@
         <view class="listOutView" wx:for="{{imgUrls}}" bindtap="checkExInfo">
             <view class="listView">
                 <view class="listLeft">
-                    <image class="listLeftImage" src="../../../Images/list.png"></image>
+                    <image class="listLeftImage" src="../../../images/list.png"></image>
                 </view>
                 <view class="listRight">
                     <text class="listRightTitle">金橡树床垫</text>
@@ -19,6 +19,6 @@
   </scroll-view>
 
   <view class="searchView">
-    <image class="searchImage" src="../../../Images/jiaoliu.png"></image>
+    <image class="searchImage" src="../../../images/jiaoliu.png"></image>
   </view>
 </view>

@@ -11,7 +11,7 @@
             <!--<textarea class="areaStyle" style="width: {{MaxWidth - 60}}px;" placeholder="请输入您所需产品的规格和数量，以便商家回复更精准" />-->
             <input class="inputStyle" placeholder="输入您所需产品的规格和数量"/>
             <view class="imageView">
-                <image class="selectImage" style="width:40px; height:40px;" src="../../../Images/jiaoliu.png"></image>
+                <image bindtap="selectImageAction" class="selectImage" style="width:44px; height:34px;" src="../../../images/Camera.png"></image>
             </view>
 
             <button class="sendBtn"> 发布召唤 </button>
@@ -30,7 +30,7 @@
                 </view>
                 
                 <view class="top1">
-                   <image style="width:40px; height:40px;"  src="../../../Images/jiaoliu.png"></image>
+                   <image style="width:40px; height:40px;"  src="../../../images/jiaoliu.png"></image>
                 </view>
             </view>
 
@@ -38,21 +38,21 @@
             <view class="cell" wx:for="{{imgUrls}}">
                 <view class="section0">
                     <view class="leftView" bindtap="clickHeadImage">
-                        <image src="../../../Images/list.png" style="width:40px; height:40px;"></image>
+                        <image src="../../../images/list.png" style="width:40px; height:40px;"></image>
                     </view>
 
                     <view class="rightView">
                             <text class="nametitle">诺贝尔瓷砖</text>
                             <text class="sendContent">这是内容  这是内容  这是内容  这是内容  这是内容  这是内容  这是内容  这是内容  这是内容  </text>
                             <view class="sendImagesView">
-                                <image class="sendImages" src="../../../Images/list.png"></image>
-                                <image class="sendImages" src="../../../Images/list.png"></image>
-                                <image class="sendImages" src="../../../Images/list.png"></image>
+                                <image class="sendImages" src="../../../images/list.png"></image>
+                                <image class="sendImages" src="../../../images/list.png"></image>
+                                <image class="sendImages" src="../../../images/list.png"></image>
                             </view>
 
                             <view class="timeAndTalkView">
                                 <text class="timeType">20分钟前</text>
-                                <image src="../../../Images/jiaoliu.png" style="width:12px; height:12px;"></image>
+                                <image src="../../../images/jiaoliu.png" style="width:12px; height:12px;"></image>
                             </view>
 
 

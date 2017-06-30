@@ -4,14 +4,14 @@
         "pages/Index/ShowDetail/ShowDetail",
         "pages/Index/ExhibitorsList/ExhibitorsList",
         "pages/Index/ExhibitorInfo/ExhibitorInfo",
+        "pages/Index/ProdictionDetail/ProdictionDetail",
         "pages/TalkAbout/Communicate/Communicate",
         "pages/Me/Mine/Mine",
         "pages/Me/SystemMessage/SystemMessage",
         "pages/Me/MyProdiction/MyProdiction",
-        "pages/HXChat/chat/chat",
-        "pages/HXChat/chatroom/chatroom",
         "pages/Me/MyDynamics/MyDynamics",
-        "pages/Index/ProdictionDetail/ProdictionDetail"
+        "pages/HXChat/chat/chat",
+        "pages/HXChat/chatroom/chatroom"
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -22,20 +22,20 @@
             {
                 "pagePath": "pages/Index/Home/Home",
                 "text": "首页",
-                "iconPath": "Images/shouye.png",
-                "selectedIconPath": "Images/shouye.png"
+                "iconPath": "images/shouye.png",
+                "selectedIconPath": "images/shouye.png"
             },
             {
                 "pagePath": "pages/TalkAbout/Communicate/Communicate",
                 "text": "交流",
-                "iconPath": "Images/jiaoliu.png",
-                "selectedIconPath": "Images/jiaoliu.png"
+                "iconPath": "images/jiaoliu.png",
+                "selectedIconPath": "images/jiaoliu.png"
             },
             {
                 "pagePath": "pages/Me/Mine/Mine",
                 "text": "我",
-                "iconPath": "Images/wo.png",
-                "selectedIconPath": "Images/wo.png"
+                "iconPath": "images/wo.png",
+                "selectedIconPath": "images/wo.png"
             }
         ]
     },

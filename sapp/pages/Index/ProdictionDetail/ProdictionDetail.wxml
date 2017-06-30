@@ -3,7 +3,7 @@
     <view class="section0">
         <!--头像-->
         <view class="headView">
-             <image class="headImage" src="../../../Images/list.png"></image>
+             <image class="headImage" src="../../../images/list.png"></image>
         </view>
 
         <!--名字-->
@@ -14,7 +14,7 @@
 
         <!--地址-->
         <view class="addressView">
-            <image class="addImage" src="../../../Images/jiaoliu.png"></image>
+            <image class="addImage" src="../../../images/Location.png"></image>
             <text class="addText">青岛市崂山区劲松七路</text>
         </view>
     </view>
@@ -25,7 +25,7 @@
 
         <text class="pdes">产品介绍：金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫金橡树床垫</text>
 
-        <image class="pImage" style="height: {(MaxWidth - 20)*0.6}px; width: {{MaxWidth - 20}}px;" src="../../../Images/list.png"></image>
+        <image class="pImage" style="height: {(MaxWidth - 20)*0.6}px; width: {{MaxWidth - 20}}px;" src="../../../images/list.png"></image>
     </view>
 
 </view>

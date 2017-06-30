@@ -18,11 +18,11 @@
 
               <!--时间地点view-->
               <view class="timeView">
-                <image class="timeImage" src="../../../Images/jiaoliu.png"></image>
+                <image class="timeImage" src="../../../images/jiaoliu.png"></image>
                 <text class="timeText">2017.6.23日~6.25日 </text>
               </view>
               <view class="timeView">
-                <image class="timeImage" src="../../../Images/jiaoliu.png"></image>
+                <image class="timeImage" src="../../../images/jiaoliu.png"></image>
                 <text class="timeText">青岛国际会展中心</text>
               </view> 
               <view class="desView">
@@ -32,7 +32,7 @@
             
             <!--下面的点击箭头-->
             <view class="clickView" bindtap="showDetail">
-              <image class="clickImage" src="../../../Images/jiaoliu.png"></image>
+              <image class="clickImage" src="../../../images/jiaoliu.png"></image>
             </view>
         </view>
       </swiper-item>

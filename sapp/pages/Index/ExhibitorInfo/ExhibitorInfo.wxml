@@ -3,7 +3,7 @@
     <view class="section0">
         <!--头像-->
         <view class="headView">
-             <image class="headImage" src="../../../Images/list.png"></image>
+             <image class="headImage" src="../../../images/list.png"></image>
         </view>
 
         <!--名字-->
@@ -14,7 +14,7 @@
 
         <!--地址-->
         <view class="addressView">
-            <image class="addImage" src="../../../Images/jiaoliu.png"></image>
+            <image class="addImage" src="../../../images/Location.png"></image>
             <text class="addText">青岛市崂山区劲松七路</text>
         </view>
     </view>
@@ -27,14 +27,14 @@
             </view>
 
             <view class="middleImagesView">
-                <image class="middleImgae" src="../../../Images/list.png"></image>
-                <image class="middleImgae" src="../../../Images/list.png"></image>
+                <image class="middleImgae" src="../../../images/list.png"></image>
+                <image class="middleImgae" src="../../../images/list.png"></image>
             </view>
         </view>
 
         <view class="section1RightView">
             <view class="rightImageView">
-                <image class="rightImgae" src="../../../Images/jiaoliu.png"></image>
+                <image class="rightImgae" src="../../../images/jiaoliu.png"></image>
             </view>
         </view>
     </view>
@@ -62,7 +62,7 @@
         </view>
         
         <view class="listview" wx:for="{{imgUrls}}" bindtap="checkProdictDetail">
-                <image style="height: {(MaxWidth - 20)*0.6}px; width: {{MaxWidth - 20}}px;" src="../../../Images/list.png"></image>
+                <image style="height: {(MaxWidth - 20)*0.6}px; width: {{MaxWidth - 20}}px;" src="../../../images/list.png"></image>
                 <text class="des">金橡树乳胶按摩蝶形枕头</text>
             </view>
             

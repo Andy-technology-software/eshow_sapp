@@ -4,7 +4,7 @@
         <view class="oneView">
             <!--头像-->
             <view class="headView">
-            <image class="headImage" src="../../../Images/jiaoliu.png"></image>
+            <image class="headImage" src="../../../images/jiaoliu.png"></image>
             </view>
 
             <!--名字 编辑-->
@@ -12,7 +12,7 @@
             <text class="name">金橡树床垫</text>
             <view class="editView">
                 <text class="editText">编辑资料</text>
-                <image class="editImage" src="../../../Images/jiaoliu.png"></image>
+                <image class="editImage" src="../../../images/jiaoliu.png"></image>
             </view>
             </view>
         </view>
@@ -20,7 +20,7 @@
 
         <!--消息-->
         <view class="messageView" bindtap="goChat">
-          <image class="messageImage" src="../../../Images/jiaoliu.png"></image>
+          <image class="messageImage" src="../../../images/jiaoliu.png"></image>
         </view>
 
      </view>
@@ -29,7 +29,7 @@
      <view class="bottomView">
       <view class="outView">
         <view class="mineMessage" bindtap="systemMessage">
-            <image class="mineMessageImage" src="../../../Images/jiaoliu.png"></image>
+            <image class="mineMessageImage" src="../../../images/jiaoliu.png"></image>
             <text class="mineMessageText">我的消息</text>
        </view>
        <view class="lineView"></view>
@@ -37,7 +37,7 @@
 
       <view class="outView">
         <view class="mineMessage" bindtap="myProdiction">
-            <image class="mineMessageImage" src="../../../Images/jiaoliu.png"></image>
+            <image class="mineMessageImage" src="../../../images/jiaoliu.png"></image>
             <text class="mineMessageText">我的产品</text>
        </view>
        <view class="lineView"></view>
@@ -45,7 +45,7 @@
 
       <view class="outView">
         <view class="mineMessage" bindtap="myDynamics">
-            <image class="mineMessageImage" src="../../../Images/jiaoliu.png"></image>
+            <image class="mineMessageImage" src="../../../images/jiaoliu.png"></image>
             <text class="mineMessageText">我的动态</text>
        </view>
        <view class="lineView"></view>
@@ -53,7 +53,7 @@
 
       <view class="outView">
         <view class="mineMessage">
-            <image class="mineMessageImage" src="../../../Images/jiaoliu.png"></image>
+            <image class="mineMessageImage" src="../../../images/jiaoliu.png"></image>
             <text class="mineMessageText">意见反馈</text>
        </view>
        <view class="lineView"></view>
