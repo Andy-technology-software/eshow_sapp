@@ -34,7 +34,7 @@
 
         <view class="section1RightView">
             <view class="rightImageView">
-                <image class="rightImgae" src="../../../images/jiaoliu.png"></image>
+                <image class="rightImgae" src="../../../images/right@2x.png"></image>
             </view>
         </view>
     </view>

@@ -4,23 +4,23 @@
         <view class="oneView">
             <!--头像-->
             <view class="headView">
-            <image class="headImage" src="../../../images/jiaoliu.png"></image>
+            <image class="headImage" src="../../../images/list.png"></image>
             </view>
 
             <!--名字 编辑-->
-            <view class="middleView">
-            <text class="name">金橡树床垫</text>
-            <view class="editView">
-                <text class="editText">编辑资料</text>
-                <image class="editImage" src="../../../images/jiaoliu.png"></image>
-            </view>
+            <view class="middleView" bindtap="modifyInfo">
+                <text class="name">金橡树床垫</text>
+                <view class="editView">
+                    <text class="editText">编辑资料</text>
+                    <image class="editImage" src="../../../images/jiaoliu.png"></image>
+                </view>
             </view>
         </view>
         
 
         <!--消息-->
         <view class="messageView" bindtap="goChat">
-          <image class="messageImage" src="../../../images/jiaoliu.png"></image>
+          <image class="messageImage" src="../../../images/chat.png"></image>
         </view>
 
      </view>

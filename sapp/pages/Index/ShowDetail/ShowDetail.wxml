@@ -15,7 +15,7 @@
             </view>
 
             <view class="rightView">
-                <image class="youImage" src="../../../images/jiaoliu.png"></image>
+                <image class="youImage" src="../../../images/right@2x.png"></image>
             </view>
         </view>
 

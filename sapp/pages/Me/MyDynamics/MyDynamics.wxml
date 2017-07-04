@@ -44,7 +44,7 @@
   </scroll-view>
 
   <view class="searchView">
-    <image class="searchImage" src="../../../images/jiaoliu.png"></image>
+    <image bindtap="publishDynamic" class="searchImage" src="../../../images/jiaoliu.png"></image>
   </view>
 
 </view>

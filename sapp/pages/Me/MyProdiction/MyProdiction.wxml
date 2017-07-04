@@ -2,14 +2,14 @@
     <view class="outView" style="height: {{MaxHeigth - 50}}px; width: {{MaxWidth}}px; ">
         <scroll-view scroll-y="true" style="height: 100%;">
             <view class="listview" wx:for="{{imgUrls}}" bindtap="editMyProdict">
-                <image style="height: {(MaxWidth - 20)*0.6}px; width: {{MaxWidth - 20}}px;" src="../../../Images/list.png"></image>
+                <image style="height: {(MaxWidth - 20)*0.6}px; width: {{MaxWidth - 20}}px;" src="../../../images/list.png"></image>
                 <text class="des">金橡树乳胶按摩蝶形枕头</text>
             </view>
         </scroll-view>
     </view>
     
     
-    <view class="sendPro">
+    <view class="sendPro" bindtap="productRelease">
        <text class="sendText">发布产品</text>
     </view>
 </view> 

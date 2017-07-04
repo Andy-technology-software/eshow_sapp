@@ -16,6 +16,24 @@ Page({
   },
 
   /**
+     * 发布动态
+     */
+  publishDynamic: function () {
+      wx.navigateTo({
+          url: '../../TalkAbout/PublishDynamic/PublishDynamic',
+          success: function (res) {
+              // success
+          },
+          fail: function () {
+              // fail
+          },
+          complete: function () {
+              // complete
+          }
+      })
+  },
+
+  /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {

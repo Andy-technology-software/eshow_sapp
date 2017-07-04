@@ -12,7 +12,11 @@
         "pages/Me/MyProdiction/MyProdiction",
         "pages/Me/MyDynamics/MyDynamics",
         "pages/chat/chat",
-        "pages/chatroom/chatroom"
+        "pages/chatroom/chatroom",
+        "pages/Me/ProductRelease/ProductRelease",
+        "pages/Me/EditProduct/EditProduct",
+        "pages/TalkAbout/PublishDynamic/PublishDynamic",
+        "pages/Me/ModifyInfo/ModifyInfo"
     ],
     "window": {
         "backgroundTextStyle": "light",

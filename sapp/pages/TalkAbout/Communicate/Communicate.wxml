@@ -30,7 +30,7 @@
                 </view>
                 
                 <view class="top1">
-                   <image style="width:40px; height:40px;"  src="../../../images/jiaoliu.png"></image>
+                   <image bindtap="publishDynamic" style="width:40px; height:40px;"  src="../../../images/jiaoliu.png"></image>
                 </view>
             </view>
 

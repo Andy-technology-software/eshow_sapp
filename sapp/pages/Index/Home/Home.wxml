@@ -32,7 +32,7 @@
             
             <!--下面的点击箭头-->
             <view class="clickView" bindtap="showDetail">
-              <image class="clickImage" src="../../../images/jiaoliu.png"></image>
+              <image class="clickImage" src="../../../images/right@2x.png"></image>
             </view>
         </view>
       </swiper-item>

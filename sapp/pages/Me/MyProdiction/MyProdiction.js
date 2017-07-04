@@ -22,6 +22,24 @@ Page({
   },
 
   /**
+   * 编辑产品
+   */
+  editMyProdict: function() {
+      wx.navigateTo({
+          url: '../EditProduct/EditProduct',
+      })
+  },
+
+  /**
+   * 产品发布
+   */
+  productRelease: function () {
+    wx.navigateTo({
+        url: '../ProductRelease/ProductRelease',
+    })
+  },
+
+  /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {

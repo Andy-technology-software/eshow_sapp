@@ -1,0 +1,40 @@
+<view class="container">
+    
+    <view class="nameView">
+        <view class="topView">
+            <text class="leftTitle">商家名称</text>
+            <input class="inputStyle" placeholder="请输入名称" value="金橡树床垫"/>
+        </view>
+        <view class="lineView"></view>
+    </view>
+
+
+    <view class="nameView">
+        <view class="topView">
+            <text class="leftTitle">城市</text>
+            <input class="inputStyle" placeholder="请输入所在城市" value="青岛"/>
+        </view>
+        <view class="lineView"></view>
+    </view>
+
+
+    <view class="nameView">
+        <view class="topView">
+            <text class="leftTitle">主营产品</text>
+            <input class="inputStyle" placeholder="请输入主营产品" value="金橡树床垫"/>
+        </view>
+        <view class="lineView"></view>
+    </view>
+
+
+    <view class="desView">
+        <view class="topdesView">
+            <text class="leftdesTitle">商家简介</text>
+            <textarea value="百年老店百年老店百年老店百年老店百年老店百年老店百年老店百年老店百年老店百年老店百年老店百年老店百年老店百年老店" placeholder="请输入简介" class="desStyle"/>
+        </view>
+        <view class="lineView"></view>
+    </view>
+
+
+    <button class="sendBtn" bindtap="saveinfo"> 保存 </button>
+</view>

@@ -9,6 +9,15 @@ Page({
   },
 
   /**
+   * 修改资料
+   */
+  modifyInfo: function (options) {
+      wx.navigateTo({
+          url: '../ModifyInfo/ModifyInfo',
+      })
+  },
+
+  /**
    * 系统消息
    */
   systemMessage: function () {
