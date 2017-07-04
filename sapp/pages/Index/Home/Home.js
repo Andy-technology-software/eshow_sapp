@@ -19,11 +19,6 @@ Page({
     autoplay: true,
     interval: 4000,
     duration: 1000,
-
-    //聊天
-    name: '17888888888',
-    psd: '17888888888',
-    grant_type: "password"
   },
 
   /**
@@ -56,20 +51,6 @@ Page({
               })
           }
       })
-
-      var options = {
-          apiUrl: WebIM.config.apiURL,
-          user: that.data.name,
-          pwd: that.data.psd,
-          grant_type: that.data.grant_type,
-          appKey: WebIM.config.appkey
-      }
-      wx.setStorage({
-          key: "myUsername",
-          data: that.data.name
-      })
-      //console.log('open')
-      WebIM.conn.open(options)
   },
 
   /**

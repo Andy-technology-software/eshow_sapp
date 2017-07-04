@@ -12,8 +12,14 @@ Page({
    * 私信点击
    */
   sixinClick: function () {
+      var my = wx.getStorageSync('myUsername')
+      var nameList = {
+          myName: '17888888888',
+          your: '18561927376'
+      }
+
       wx.navigateTo({
-          url: '../../HXChat/chatroom/chatroom',
+          url: '../../chatroom/chatroom?username=' + JSON.stringify(nameList),
           success: function (res) {
               // success
           },

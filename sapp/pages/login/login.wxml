@@ -1,0 +1,18 @@
+<view class="login">
+	<!--<view class="login_img">
+		<image src="../../images/logo.png"></image>
+	</view>-->
+	<view class="login_user">
+		<input type="text" placeholder="请输入账号" placeholder-style="color:rgb(173,185,193)" bindinput="bindUsername"/>
+	</view>
+	<view class="login_pwd">
+		<input type="text" password placeholder="请输入密码" placeholder-style="color:rgb(173,185,193)" bindinput="bindPassword"/>
+	</view>
+	<view class="login_text">
+		<!--<view>
+			<text>没有账号?</text>
+			<navigator url="../register/register" redirect hover-class="navigator-hover">注 册</navigator>
+		</view>-->
+	</view>
+	<button  class="login_btn" hover-class="btn_hover" bindtap="login">登 录</button>
+</view>

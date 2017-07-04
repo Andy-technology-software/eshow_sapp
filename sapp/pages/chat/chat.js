@@ -36,11 +36,7 @@ Page({
             show_mask: false
         })
     },
-    tab_contacts: function () {
-        wx.redirectTo({
-            url: '../main/main'
-        })
-    },
+    
     close_mask: function () {
         this.setData({
             search_btn: true,
@@ -48,11 +44,7 @@ Page({
             show_mask: false
         })
     },
-    tab_setting: function () {
-        wx.redirectTo({
-            url: '../settings/settings'
-        })
-    },
+    
     into_chatRoom: function (event) {
         var that = this
         //console.log(event)
@@ -62,7 +54,7 @@ Page({
             your: event.currentTarget.dataset.username
         }
         wx.navigateTo({
-            url: '../chatroom/chatroom?username=' + JSON.stringify(nameList)
+            url: '../chatroom/chatroom?username=18561927376'
         })
     },
     del_chat: function (event) {

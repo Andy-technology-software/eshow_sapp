@@ -30,9 +30,9 @@
 
 
 
-
-<view class="mask" bindtap="close_mask" wx:if="{{show_mask}}"></view>
 <!--
+<view class="mask" bindtap="close_mask" wx:if="{{show_mask}}"></view>
+
 <view class="chatRoom_tab">
 	<view class="contacts" bindtap="tab_contacts">
 		<image src="../../images/contacts.png" ></image>

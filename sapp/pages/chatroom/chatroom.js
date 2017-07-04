@@ -1,5 +1,5 @@
-var strophe = require('../../../utils/strophe.js')
-var WebIM = require('../../../utils/WebIM.js')
+var strophe = require('../../utils/strophe.js')
+var WebIM = require('../../utils/WebIM.js')
 var WebIM = WebIM.default
 
 var RecordStatus = {

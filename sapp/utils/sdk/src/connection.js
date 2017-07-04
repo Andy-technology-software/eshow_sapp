@@ -783,8 +783,9 @@ connection.prototype.open = function (options) {
                     duration: 1000
                 });
                 setTimeout(function () {
-                    wx.redirectTo({
-                        url: '../main/main?myName=' + userId
+                    console.log('走的这');
+                    wx.switchTab({
+                        url: '../../pages/Index/Home/Home'
                     })
                 }, 1000);
             }

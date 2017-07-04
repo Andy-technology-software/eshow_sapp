@@ -67,7 +67,7 @@ Page({
    */
   goChat: function(){
       wx.navigateTo({
-          url: '../../HXChat/chat/chat',
+          url: '../../chat/chat',
           success: function (res) {
               // success
           },

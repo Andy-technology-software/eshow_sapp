@@ -128,7 +128,7 @@
   padding: 0;
   /*display: inline-block;*/
   /*float: right;*/
-  margin: 4px 8px auto auto;
+  margin: -34px 8px auto auto;
   background-color: #fff;
 }
 

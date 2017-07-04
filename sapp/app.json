@@ -1,5 +1,6 @@
 {
     "pages": [
+        "pages/login/login",
         "pages/Index/Home/Home",
         "pages/Index/ShowDetail/ShowDetail",
         "pages/Index/ExhibitorsList/ExhibitorsList",
@@ -10,8 +11,8 @@
         "pages/Me/SystemMessage/SystemMessage",
         "pages/Me/MyProdiction/MyProdiction",
         "pages/Me/MyDynamics/MyDynamics",
-        "pages/HXChat/chat/chat",
-        "pages/HXChat/chatroom/chatroom"
+        "pages/chat/chat",
+        "pages/chatroom/chatroom"
     ],
     "window": {
         "backgroundTextStyle": "light",
