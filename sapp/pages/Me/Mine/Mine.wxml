@@ -52,7 +52,7 @@
       </view>
 
       <view class="outView">
-        <view class="mineMessage">
+        <view class="mineMessage" bindtap="fadeBack">
             <image class="mineMessageImage" src="../../../images/jiaoliu.png"></image>
             <text class="mineMessageText">意见反馈</text>
        </view>

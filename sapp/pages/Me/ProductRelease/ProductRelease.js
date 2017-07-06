@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+      proImage: '../../../images/Camera.png'
   },
 
   /**
@@ -20,28 +20,35 @@ Page({
    * 选产品图片
    */
   selectImageAction: function () {
+      var that = this;
       wx.showActionSheet({
           itemList: ['相机', '相册'],
           success: function (res) {
               console.log(res.tapIndex)
-              if (0 == res.tapIndex) {
+              if(0 == res.tapIndex){
                   wx.chooseImage({
                       count: 1, // 默认9
                       sizeType: ['original', 'compressed'], // 可以指定是原图还是压缩图，默认二者都有
                       sourceType: ['camera'], // 可以指定来源是相册还是相机，默认二者都有
                       success: function (res) {
                           // 返回选定照片的本地文件路径列表，tempFilePath可以作为img标签的src属性显示图片
-                          var tempFilePaths = res.tempFilePaths
+                          var tempFilePaths = res.tempFilePaths;
+                          that.setData({
+                              proImage: tempFilePaths
+                          })
                       }
                   })
-              } else if (1 == res.tapIndex) {
+              }else if(1 == res.tapIndex){
                   wx.chooseImage({
                       count: 1, // 默认9
                       sizeType: ['original', 'compressed'], // 可以指定是原图还是压缩图，默认二者都有
                       sourceType: ['album'], // 可以指定来源是相册还是相机，默认二者都有
                       success: function (res) {
                           // 返回选定照片的本地文件路径列表，tempFilePath可以作为img标签的src属性显示图片
-                          var tempFilePaths = res.tempFilePaths
+                          var tempFilePaths = res.tempFilePaths;
+                          that.setData({
+                              proImage: tempFilePaths
+                          })
                       }
                   })
               }
@@ -56,7 +63,15 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+      var that = this
+      wx.getSystemInfo({
+          success: function (res) {
+              that.setData({
+                  MaxHeigth: res.windowHeight,
+                  MaxWidth: res.windowWidth
+              })
+          }
+      })
   },
 
   /**

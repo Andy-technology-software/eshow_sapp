@@ -1,0 +1,48 @@
+<view class="container">
+
+    <!--标题部分-->
+    <view class="titleView">
+        <text class="title">请留下您宝贵的意见或建议</text>
+        <text class="title">我们将努力改进</text>
+    </view>
+
+
+    <!--类型部分-->
+    <view class="leixingView">
+    
+        <view class="leixingTitleView">
+            <text class="leixingTitle">反馈类型</text>
+        </view>
+
+        <view class="leixingLineView"></view>
+
+        <view class="leixingBtnView">
+            <button class="leixingBtn"> 产品易用性 </button>
+            <button class="leixingBtn"> 发布虚假消息 </button>
+            <button class="leixingBtn"> 其他 </button>
+        </view>
+    
+    </view>
+
+
+    <!--内容部分-->
+    <view class="contentView">
+        <text class="contentTitle">反馈内容</text>
+        <view class="contentDesView">
+            <textarea placeholder="请输入..." class="contentDes"/>
+        </view>
+    </view>
+
+
+    <!--联系方式部分-->
+    <view class="contentView">
+        <text class="contentTitle">联系方式</text>
+        <view class="contentDesView">
+            <input class="lianxiStyle" placeholder="请输入..."/>
+        </view>
+    </view>
+
+
+    <!--提交按钮-->
+    <button class="sendBtn" bindtap="saveinfo"> 提交 </button>
+</view>

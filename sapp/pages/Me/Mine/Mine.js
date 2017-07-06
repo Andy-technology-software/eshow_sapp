@@ -72,6 +72,24 @@ Page({
   },
 
   /**
+    * 意见反馈
+    */
+  fadeBack: function () {
+      wx.navigateTo({
+          url: '../FadeBack/FadeBack',
+          success: function (res) {
+              // success
+          },
+          fail: function () {
+              // fail
+          },
+          complete: function () {
+              // complete
+          }
+      })
+  },
+
+  /**
    * 跳转到聊天列表
    */
   goChat: function(){

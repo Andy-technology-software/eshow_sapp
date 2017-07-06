@@ -3,11 +3,11 @@
     <view class="outview">
 
         <input class="inputStyle" placeholder="请输入产品名称"/>
-
+        
         <textarea placeholder="请输入产品描述" class="desStyle"/>
 
         <view class="imageView">
-                <image bindtap="selectImageAction" class="selectImage" style="width:44px; height:34px;" src="../../../images/Camera.png"></image>
+                <image bindtap="selectImageAction" class="selectImage" style="height: {(MaxWidth - 20)*0.6}px; width: {{MaxWidth - 20}}px;" src="{{proImage}}"></image>
         </view>
 
         <button class="sendBtn" bindtap="sendPro"> 提交 </button>

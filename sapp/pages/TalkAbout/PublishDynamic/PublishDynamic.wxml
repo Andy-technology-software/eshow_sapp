@@ -5,12 +5,9 @@
         <textarea placeholder="请输入你想说的" class="desStyle"/>
 
         <view class="sendImagesView">
-            <image class="sendImages" src="../../../images/list.png"></image>
-            <image class="sendImages" src="../../../images/list.png"></image>
-            <image class="sendImages" src="../../../images/list.png"></image>
-            <image class="sendImages" src="../../../images/list.png"></image>
-            <image class="sendImages" src="../../../images/list.png"></image>
-            <image class="sendImages" src="../../../images/list.png"></image>
+            <view class="imageView" wx:for="{{imageArr}}">
+                <image class="sendImages" src="{{item}}" bindtap="selectImageAction" id="{{index}}"></image>
+            </view>
         </view>
 
         <button class="sendBtn" bindtap="sendPro"> 发布 </button>

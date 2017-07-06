@@ -7,6 +7,7 @@
         "pages/Index/ExhibitorInfo/ExhibitorInfo",
         "pages/Index/ProdictionDetail/ProdictionDetail",
         "pages/TalkAbout/Communicate/Communicate",
+        "pages/TalkAbout/PublishDynamic/PublishDynamic",
         "pages/Me/Mine/Mine",
         "pages/Me/SystemMessage/SystemMessage",
         "pages/Me/MyProdiction/MyProdiction",
@@ -15,8 +16,8 @@
         "pages/chatroom/chatroom",
         "pages/Me/ProductRelease/ProductRelease",
         "pages/Me/EditProduct/EditProduct",
-        "pages/TalkAbout/PublishDynamic/PublishDynamic",
-        "pages/Me/ModifyInfo/ModifyInfo"
+        "pages/Me/ModifyInfo/ModifyInfo",
+        "pages/Me/FadeBack/FadeBack"
     ],
     "window": {
         "backgroundTextStyle": "light",
