@@ -1,4 +1,4 @@
-// ExhibitorsList.js
+// ProductionSearchResult.js
 Page({
 
   /**
@@ -19,90 +19,14 @@ Page({
           'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
           'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
       ],
-      isSearch: 0
   },
-
+  
   /**
-   * 生命周期函数--监听页面加载
+   * 产品详情
    */
-  allBind: function () {
-      console.log("取消弹框");
-      var that = this;
-      if (1 == that.data.isSearch) {
-          that.setData({
-              isSearch: 0
-          })
-      }
-  },
-    
-  /**
-   * 搜索-企业
-   */
-  busClick: function() {
-      var that = this;
-      that.setData({
-          isSearch: 0
-      })
+  checkProdict: function() {
       wx.navigateTo({
-          url: '../ExhibitorSearchResult/ExhibitorSearchResult',
-          success: function (res) {
-              // success
-          },
-          fail: function () {
-              // fail
-          },
-          complete: function () {
-              // complete
-          }
-      })
-  },
-
-  /**
-   * 搜索-产品
-   */
-  proClick: function () {
-      var that = this;
-      that.setData({
-          isSearch: 0
-      })
-      wx.navigateTo({
-          url: '../ProductionSearchResult/ProductionSearchResult',
-          success: function (res) {
-              // success
-          },
-          fail: function () {
-              // fail
-          },
-          complete: function () {
-              // complete
-          }
-      })
-  },
-
-  /**
-   * 搜索
-   */
-  searchExh: function() {
-      var that = this;
-      that.setData({
-          isSearch: 1
-      })
-  },
-  /**
-   * 查看商家详情
-   */
-  checkExInfo: function () {
-      wx.navigateTo({
-          url: '../ExhibitorInfo/ExhibitorInfo',
-          success: function (res) {
-              // success
-          },
-          fail: function () {
-              // fail
-          },
-          complete: function () {
-              // complete
-          }
+          url: '../ProdictionDetail/ProdictionDetail',
       })
   },
 
@@ -115,7 +39,7 @@ Page({
           success: function (res) {
               that.setData({
                   MaxHeigth: res.windowHeight,
-                  MaxWidth:res.windowWidth
+                  MaxWidth: res.windowWidth
               })
           }
       })

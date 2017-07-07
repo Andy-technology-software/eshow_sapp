@@ -22,6 +22,15 @@ Page({
   },
 
   /**
+   * 查看消息详情
+   */
+  checkMessage: function() {
+    wx.navigateTo({
+        url: '../SystemMessageDetail/SystemMessageDetail',
+    })
+  },
+
+  /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {

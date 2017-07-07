@@ -16,10 +16,22 @@
 
         <view class="leixingLineView"></view>
 
-        <view class="leixingBtnView">
-            <button class="leixingBtn"> 产品易用性 </button>
-            <button class="leixingBtn"> 发布虚假消息 </button>
-            <button class="leixingBtn"> 其他 </button>
+        <view class="leixingBtnView" wx:if="{{selectIndex == 0}}">
+            <button class="leixingBtn" style="background-color: rgb(89,89,105);color: white;" bindtap="seleBtn0"> 产品易用性 </button>
+            <button class="leixingBtn" bindtap="seleBtn1"> 发布虚假消息 </button>
+            <button class="leixingBtn" bindtap="seleBtn2"> 其他 </button>
+        </view>
+
+        <view class="leixingBtnView" wx:if="{{selectIndex == 1}}">
+            <button class="leixingBtn" bindtap="seleBtn0"> 产品易用性 </button>
+            <button class="leixingBtn" style="background-color: rgb(89,89,105);color: white;" bindtap="seleBtn1"> 发布虚假消息 </button>
+            <button class="leixingBtn" bindtap="seleBtn2"> 其他 </button>
+        </view>
+
+        <view class="leixingBtnView" wx:if="{{selectIndex == 2}}">
+            <button class="leixingBtn" bindtap="seleBtn0"> 产品易用性 </button>
+            <button class="leixingBtn" bindtap="seleBtn1"> 发布虚假消息 </button>
+            <button class="leixingBtn" style="background-color: rgb(89,89,105);color: white;" bindtap="seleBtn2"> 其他 </button>
         </view>
     
     </view>

@@ -57,11 +57,7 @@
 
 .contentDesView{
     margin-top: 5px;
-    background-color: rgb(153,153,153);
-}
-
-.contentDes{
-    padding: 10px;
+    background-color: rgb(238,238,238);
 }
 
 .lianxiStyle{
@@ -71,7 +67,7 @@
 .sendBtn{
     margin-top: 60px;
     margin-bottom: 30px;
-    background-color: rgb(53,53,59);
+    background-color: rgb(153,153,153);
     color: white;
     width: 70%;
     font-size: 14px;

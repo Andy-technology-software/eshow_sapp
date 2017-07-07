@@ -1,0 +1,9 @@
+<view class="container">
+
+    <image src="../../../images/jiaoliu.png" style="width:100px;height:100px;"></image>
+
+    <text style="font-size:16px;margin-top:5px;">反馈成功</text>
+
+    <text style="font-size:14px;margin-top:20px;color: lightslategray;">工作人员会第一时间处理，感谢您的反馈</text>
+
+</view>

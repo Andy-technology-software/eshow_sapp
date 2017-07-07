@@ -1,52 +1,12 @@
-// FadeBack.js
+// FadeBackSuccess.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    selectIndex: 0
+  
   },
-
-  /**
-   * 意见提交
-   */
-  saveinfo: function () {
-      wx.redirectTo({
-        url: '../FadeBackSuccess/FadeBackSuccess',
-    })
-  },
-
-  /**
-   * 点击第一个按钮
-   */
-  seleBtn0: function () {
-    var that = this;
-    that.setData({
-        selectIndex: 0
-    })
-  },
-
-  /**
-   * 点击第二个按钮
-   */
-  seleBtn1: function () {
-      var that = this;
-      that.setData({
-          selectIndex: 1
-      })
-  },
-
-  /**
-   * 点击第三个按钮
-   */
-  seleBtn2: function () {
-      var that = this;
-      that.setData({
-          selectIndex: 2
-      })
-  },
-
 
   /**
    * 生命周期函数--监听页面加载
@@ -73,14 +33,14 @@ Page({
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-  
+      console.log('onHide');
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-  
+      console.log('onUnload');
   },
 
   /**

@@ -1,52 +1,46 @@
-// FadeBack.js
+// SystemMessageDetail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    selectIndex: 0
+    isCheckMessage: 0
   },
-
+    
   /**
-   * 意见提交
+   * 查看消息
    */
-  saveinfo: function () {
-      wx.redirectTo({
-        url: '../FadeBackSuccess/FadeBackSuccess',
-    })
-  },
-
-  /**
-   * 点击第一个按钮
-   */
-  seleBtn0: function () {
+  checkMessage: function() {
+    console.log("查看消息");
     var that = this;
     that.setData({
-        selectIndex: 0
+        isCheckMessage: 1
     })
   },
 
   /**
-   * 点击第二个按钮
+   * 生命周期函数--监听页面加载
    */
-  seleBtn1: function () {
+  allBind: function() {
+      console.log("取消弹框");
       var that = this;
-      that.setData({
-          selectIndex: 1
-      })
+      if (1 == that.data.isCheckMessage){
+          that.setData({
+              isCheckMessage: 0
+          })
+      }
   },
 
-  /**
-   * 点击第三个按钮
+ /**
+   * 立即响应
    */
-  seleBtn2: function () {
+  xiangyingBtn: function() {
       var that = this;
       that.setData({
-          selectIndex: 2
+          isCheckMessage: 0
       })
   },
-
 
   /**
    * 生命周期函数--监听页面加载

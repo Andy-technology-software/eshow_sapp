@@ -17,27 +17,4 @@
         </view>
         
   </scroll-view>
-
-  <view class="searchView" bindtap="searchExh">
-    <image class="searchImage" src="../../../images/jiaoliu.png"></image>
-  </view>
-
-
-
-  <view class="clickView" wx:if="{{isSearch == 1}}" bindtap="allBind">
-  
-  </view>
-  
-  <view class="tanOutView" style="height: 130px; width: {{MaxWidth - 40}}px;"  wx:if="{{isSearch == 1}}">
-      <view class="tanView">
-            <input class="inputStyle" placeholder="请输入。。。"/>
-
-            <view class="btnView">
-                <button class="proBtn" bindtap="proClick"> 找产品 </button>
-                <button class="proBtn" bindtap="busClick"> 找企业 </button>
-            </view>
-                    
-      </view>        
-  </view>
-
 </view>
