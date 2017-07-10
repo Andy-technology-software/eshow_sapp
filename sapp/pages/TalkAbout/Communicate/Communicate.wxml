@@ -1,7 +1,7 @@
-<view class="container" style="height: {{MaxHeigth - 69}}px; width: {{MaxWidth - 40}}px; ">
+<view class="container" style="height: {{MaxHeigth - 20 - 49}}px; width: {{MaxWidth - 40}}px;">
 
     
-  <scroll-view scroll-y="true" style="height: 100%;" >
+  <scroll-view class="scView" scroll-y="true" >
 
         <!--召唤-->
         <view class="zhaohuanView">

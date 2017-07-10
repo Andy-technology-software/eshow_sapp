@@ -15,10 +15,6 @@ Page({
       'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
       'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
     ],
-    indicatorDots: false,
-    autoplay: true,
-    interval: 4000,
-    duration: 1000,
   },
 
   /**
@@ -26,7 +22,7 @@ Page({
    */
   showDetail: function (event) {
       wx.navigateTo({
-          url: '../ShowDetail/ShowDetail',
+          url: '../ExhibitorsList/ExhibitorsList',
           success: function (res) {
               // success
           },
@@ -47,7 +43,8 @@ Page({
       wx.getSystemInfo({
           success: function (res) {
               that.setData({
-                  MaxHeigth: res.windowHeight
+                  MaxHeigth: res.windowHeight,
+                  MaxWidth: res.windowWidth
               })
           }
       })

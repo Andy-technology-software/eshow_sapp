@@ -40,6 +40,25 @@ Page({
       that.setData({
           isCheckMessage: 0
       })
+
+      var my = wx.getStorageSync('myUsername')
+      var nameList = {
+          myName: '17888888888',
+          your: '18561927376'
+      }
+
+      wx.navigateTo({
+          url: '../../chatroom/chatroom?username=' + JSON.stringify(nameList),
+          success: function (res) {
+              // success
+          },
+          fail: function () {
+              // fail
+          },
+          complete: function () {
+              // complete
+          }
+      })
   },
 
   /**

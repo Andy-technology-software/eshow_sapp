@@ -54,22 +54,40 @@
   margin-left: 5px;
 }
 
-.desView{
+/*.desView{
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 5px;
+}*/
+
+.desView{
+    position: absolute;
+    margin-left: 10px;
+    margin-right: 10px;
+    top: 260px;
+    bottom: 70px;
+}
+
+.temSc{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.temView{
+    font-size: 14px;
+    color: white;
 }
 
 .clickView{
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
+    position: absolute;
+    bottom: 10px;
+    left: 44%;
 }
 
 .clickImage{
-  width: 40px;
-  height: 40px;
-  align-self: center;
+    width: 40px;
+    height: 40px;
 }
 
 .desText{
@@ -80,5 +98,5 @@
     text-overflow:ellipsis;
     display:-webkit-box;
     -webkit-box-orient:vertical;
-    -webkit-line-clamp:3
+    -webkit-line-clamp:0;
 }

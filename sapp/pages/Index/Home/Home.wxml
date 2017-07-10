@@ -1,13 +1,13 @@
 <!--Home.wxml-->
 <view class="container">
   <swiper style="height: {{MaxHeigth}}px;" indicator-dots="{true}"
-    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="500" current="1" circular="true">
     <block wx:for="{{imgUrls}}">
       <swiper-item>
         <view class="topView">
             <!--最上面的图片-->
             <view class="imageView">
-              <image src="http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" class="topImage"></image>
+              <image src="https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=2821936096,120292112&fm=175&s=98136FD9A4E4D91571AC615A0300D053&w=639&h=418&img.PNG" class="topImage"></image>
             </view>
             
             <!--下面的view-->
@@ -26,7 +26,11 @@
                 <text class="timeText">青岛国际会展中心</text>
               </view> 
               <view class="desView">
-                <view class="desText">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>
+                <!--<view class="desText">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</view>-->
+
+                <scroll-view class="temSc" scroll-x="false" scroll-y="true">
+                    <text class="temView">由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。由各种物质组成的巨型球状天体，叫做星球。星球有一定的形状，有自己的运行轨道。</text>
+                </scroll-view>
               </view>
             </view>
             

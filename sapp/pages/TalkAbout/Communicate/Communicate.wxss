@@ -2,7 +2,12 @@
     background-color: rgb(62, 62, 68);
     margin-left: 20px;
     margin-top: 10px;
+    margin-bottom: 10px;
     border-radius: 12px;
+}
+
+.scView{
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
